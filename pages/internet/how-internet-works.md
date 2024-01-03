@@ -68,7 +68,7 @@ Step 1
 ::right::
 <div class="ml-10 bg-zinc-100">
 <div class="flex justify-center">
-    <img alt="" class="place-content-end h-120" src="/images/slides/internet/how-internet-works/map-01.png" />
+    <img alt="" class="place-content-end h-120" src="https://github.com/3rekse/internet/images/slides/internet/how-internet-works/map-01.png" />
 </div>
 </div>
 
@@ -99,7 +99,7 @@ Step 2
 ::right::
 <div class="ml-10 bg-zinc-100">
 <div class="flex justify-center">
-    <img alt="" class="place-content-end h-120" src="/images/slides/internet/how-internet-works/map-02.png" />
+    <img alt="" class="place-content-end h-120" src="https://github.com/3rekse/internet/images/slides/internet/how-internet-works/map-02.png" />
 </div>
 </div>
 
@@ -130,7 +130,7 @@ Step 3
 ::right::
 <div class="ml-10 bg-zinc-100">
     <div class="flex justify-center">
-        <img alt="" class="place-content-end h-120" src="/images/slides/internet/how-internet-works/map-03.png" />
+        <img alt="" class="place-content-end h-120" src="https://github.com/3rekse/internet/images/slides/internet/how-internet-works/map-03.png" />
     </div>
 </div>
 
