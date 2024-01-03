@@ -8,7 +8,6 @@ level: 1
 
 The very basics of how the web works
 
-
 ---
 title: Table of Contents for How the internet works
 level: 2
@@ -68,7 +67,7 @@ Step 1
 ::right::
 <div class="ml-10 bg-zinc-100">
 <div class="flex justify-center">
-    <img alt="" class="place-content-end h-120" src="https://github.com/3rekse/internet/images/slides/internet/how-internet-works/map-01.png" />
+    <img alt="" class="place-content-end h-120" src="/images/slides/internet/how-internet-works/map-01.png" />
 </div>
 </div>
 
@@ -99,7 +98,7 @@ Step 2
 ::right::
 <div class="ml-10 bg-zinc-100">
 <div class="flex justify-center">
-    <img alt="" class="place-content-end h-120" src="https://github.com/3rekse/internet/images/slides/internet/how-internet-works/map-02.png" />
+    <img alt="" class="place-content-end h-120" src="/images/slides/internet/how-internet-works/map-02.png" />
 </div>
 </div>
 
@@ -126,14 +125,12 @@ Step 3
 * The response includes an HTTP Status Code, to indicate to the browser if the request was successful or not
 * If the server approves the client's request, the server will respond with a "200 OK" status message and the web page that was requested
 
-
 ::right::
 <div class="ml-10 bg-zinc-100">
     <div class="flex justify-center">
-        <img alt="" class="place-content-end h-120" src="https://github.com/3rekse/internet/images/slides/internet/how-internet-works/map-03.png" />
+        <img alt="" class="place-content-end h-120" src="/images/slides/internet/how-internet-works/map-03.png" />
     </div>
 </div>
-
 
 <!-- 
 
