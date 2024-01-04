@@ -61,7 +61,7 @@ Slide notes:
 title: Key
 level: 2
 layout: image-right
-image: /images/slides/intro/the-course/developer.jpg
+image: /internet/images/slides/intro/the-course/developer.jpg
 ---
 
 # The Key

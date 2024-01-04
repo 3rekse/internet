@@ -12,7 +12,7 @@ How do we even do social
 title: The Ice Breaker
 level: 2
 layout: image-right
-image: /images/slides/intro/ice-breaker/ship.jpg
+image: /internet/images/slides/intro/ice-breaker/ship.jpg
 ---
 
 # Breaking the ice

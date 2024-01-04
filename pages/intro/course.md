@@ -61,7 +61,7 @@ Slide notes:
 title: Key
 level: 2
 layout: image-right
-image: /images/slides/intro/the-course/developer.jpg
+image: /internet/images/slides/intro/the-course/developer.jpg
 ---
 
 # The Key
@@ -157,7 +157,7 @@ level: 2
 title: How do we want to work
 level: 2
 layout: image-right
-image: /images/slides/intro/the-course/coffee-code.jpg
+image: /internet/images/slides/intro/the-course/coffee-code.jpg
 ---
 
 # How we work
@@ -186,7 +186,7 @@ Slide notes:
 title: Late Policy
 level: 2
 layout: image-right
-image: /images/slides/intro/the-course/negotiate.jpg
+image: /internet/images/slides/intro/the-course/negotiate.jpg
 ---
 
 # Late Policy
@@ -217,7 +217,7 @@ Slide notes:
 title: Let's chat
 level: 2
 layout: image-right
-image: /images/slides/intro/the-course/neil-01.jpeg
+image: /internet/images/slides/intro/the-course/neil-01.jpeg
 ---
 
 # Let's chat

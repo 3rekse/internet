@@ -14,7 +14,7 @@ Marking up HTML Forms
 title: Forms
 level: 2
 layout: image-right
-image: /images/slides/html/forms/form.jpg
+image: /internet/images/slides/html/forms/form.jpg
 ---
 
 # We want your inputs
@@ -452,7 +452,7 @@ Slide notes:
 title: Forms Resources
 level: 2
 layout: image-right
-image: /images/slides/html/forms/confused.jpg
+image: /internet/images/slides/html/forms/confused.jpg
 ---
 
 

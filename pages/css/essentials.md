@@ -13,7 +13,7 @@ Starting out with CSS
 title: What is CSS
 level: 2
 layout: image-right
-image: /images/slides/css/essentials/css-logo.jpg
+image: /internet/images/slides/css/essentials/css-logo.jpg
 ---
 
 
@@ -313,7 +313,7 @@ Slide notes:
 title: CSS Resources
 level: 2
 layout: image-right
-image: /images/slides/css/essentials/css-books.jpg
+image: /internet/images/slides/css/essentials/css-books.jpg
 ---
 
 

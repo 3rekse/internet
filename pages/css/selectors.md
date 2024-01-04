@@ -13,7 +13,7 @@ Target HTML elements using CSS selectors
 title: What are CSS selectors
 level: 2
 layout: image-right
-image: /images/slides/css/selectors/library.jpg
+image: /internet/images/slides/css/selectors/library.jpg
 ---
 
 
@@ -414,7 +414,7 @@ Slide notes:
 title: CSS Selector Resources
 level: 2
 layout: image-right
-image: /images/slides/css/selectors/books.jpg
+image: /internet/images/slides/css/selectors/books.jpg
 ---
 
 

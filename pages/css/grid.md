@@ -13,7 +13,7 @@ level: 1
 title: So what is Grid
 level: 2
 layout: image-right
-image: /images/slides/css/grid/layout.jpg
+image: /internet/images/slides/css/grid/layout.jpg
 ---
 
 
@@ -1109,7 +1109,7 @@ Slide notes:
 title: Grid Resournces
 level: 2
 layout: image-right
-image: /images/slides/css/flex-box/fallen-boxes.jpg
+image: /internet/images/slides/css/flex-box/fallen-boxes.jpg
 ---
 
 

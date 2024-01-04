@@ -13,7 +13,7 @@ Everything is a box in CSS
 title: What is the CSS box model
 level: 2
 layout: image-right
-image: /images/slides/css/box-model/stack.jpg
+image: /internet/images/slides/css/box-model/stack.jpg
 ---
 
 
@@ -118,7 +118,7 @@ title: CSS box model
 level: 2
 ---
 
-<img src="/images/slides/css/box-model/model.png" alt="" />
+<img src="/internet/images/slides/css/box-model/model.png" alt="" />
 
 <!-- 
 
@@ -200,7 +200,7 @@ Slide notes:
 title: CSS box model resources
 level: 2
 layout: image-right
-image: /images/slides/css/selectors/books.jpg
+image: /internet/images/slides/css/selectors/books.jpg
 ---
 
 

@@ -14,7 +14,7 @@ title: Semantic elements
 level: 2
 ---
 
-<img class="h-full" src="/images/slides/html/semantics/semantic-no-tags.png" alt="" />
+<img class="h-full" src="/internet/images/slides/html/semantics/semantic-no-tags.png" alt="" />
 
 <!-- 
 
@@ -28,7 +28,7 @@ title: Semantic elements
 level: 2
 ---
 
-<img class="h-full" src="/images/slides/html/semantics/semantic-tags.png" alt="" />
+<img class="h-full" src="/internet/images/slides/html/semantics/semantic-tags.png" alt="" />
 
 <!-- 
 

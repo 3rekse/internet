@@ -159,7 +159,7 @@ level: 2
 layout: center
 ---
 
-<img src="/images/slides/javascript/events/bubbling.png" alt="" />
+<img src="/internet/images/slides/javascript/events/bubbling.png" alt="" />
 
 
 

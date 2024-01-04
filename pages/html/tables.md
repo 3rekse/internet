@@ -421,7 +421,7 @@ While beyond the scope of this course, for more complex tables, you may run into
 title: Table Resources
 level: 2
 layout: image-right
-image: /images/slides/html/tables/you-got-this.jpg
+image: /internet/images/slides/html/tables/you-got-this.jpg
 ---
 
 

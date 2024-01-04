@@ -13,7 +13,7 @@ level: 1
 title: So what is Flexbox
 level: 2
 layout: image-right
-image: /images/slides/css/flex-box/boxes.jpg
+image: /internet/images/slides/css/flex-box/boxes.jpg
 ---
 
 
@@ -1320,7 +1320,7 @@ Slide notes:
 title: Flexbox Resournces
 level: 2
 layout: image-right
-image: /images/slides/css/flex-box/fallen-boxes.jpg
+image: /internet/images/slides/css/flex-box/fallen-boxes.jpg
 ---
 
 
