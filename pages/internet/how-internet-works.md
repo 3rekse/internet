@@ -196,9 +196,10 @@ Step 5
 
 * As soon as the client starts receiving "chunks" of the web page it will start to put it together for the user
 * The client "paints" the page on the screen by applying the styles (CSS), interactivity (JavaScript), and any images or other assets. 
-* The user sees the page content and can begin to interact with it
+* The user sees the page content and can begin to interact with it.
 
-## [La trasformazione digitale ](https://sites.google.com/view/bf3/linguaggi/la-trasformazione-digitale)
+ [La trasformazione digitale ](https://sites.google.com/view/bf3/linguaggi/la-trasformazione-digitale)
+
 
 <!-- 
 
