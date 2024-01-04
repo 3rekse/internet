@@ -12,7 +12,7 @@ info: |
 # Transition
 transition: slide-left
 # Page Title
-title: Welcome to 3Rekse
+title: OmarNet
 # Entry point for all of the actual pages
 src: ./pages/_slides.md
 ---
