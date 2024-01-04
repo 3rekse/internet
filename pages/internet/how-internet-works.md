@@ -198,6 +198,8 @@ Step 5
 * The client "paints" the page on the screen by applying the styles (CSS), interactivity (JavaScript), and any images or other assets. 
 * The user sees the page content and can begin to interact with it
 
+## [La trasformazione digitale ](https://sites.google.com/view/bf3/linguaggi/la-trasformazione-digitale)
+
 <!-- 
 
 Slide notes: 
