@@ -18,7 +18,7 @@ Add another variable ``||variables:Q||`` to receive the resulting value of a log
 let inputs = [false, true]
 let Q = false
 ```
-![io](/images/logic-lab/inout.png)
+![io](/internet/images/logic-lab/inout.png)
 ---
 title: Single input loop
 level: 2
@@ -49,7 +49,7 @@ Steps
 title: Single input loop code
 level: 2
 layout: image-right
-image: /images/logic-lab/singIn.png
+image: /internet/images/logic-lab/singIn.png
 ---
 ```
 let inputs = [false, true]
@@ -103,7 +103,7 @@ let A = false
 let Q = !A
 ```
 
-![io](/images/logic-lab/not.png)
+![io](/internet/images/logic-lab/not.png)
 
 ---
 title: Not truth table
@@ -144,7 +144,7 @@ Go get another ``||loops:for element||`` loop and put it in so that it surrounds
 title: Two input loop code 
 level: 2
 layout: image-right
-image: /images/logic-lab/twoInOut.png
+image: /internet/images/logic-lab/twoInOut.png
 ---
 
 ## Two input loop

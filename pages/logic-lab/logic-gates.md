@@ -1,6 +1,6 @@
 # Logic Gates
 
-![OR gate symbol](/images/logic-lab/logic-gates/full-adder.png)
+![OR gate symbol](/internet/images/logic-lab/logic-gates/full-adder.png)
 
 In the real world digital devices aren't the abstract logical expressions of Boolean algebra, but they are implementations of these expressions in hardware. The logical expressions are translated into device structures called _logic gates_. A logic gate is both a symbolic representation of a logical operation and, when used in digital electronics, it can is an actual circuit in hardware. A single logic gate is usually made of several transistors an shares space with many others in an integrated circuit.
 
@@ -14,25 +14,25 @@ Logic gates are symbols that can directly replace an expression in Boolean arith
 
 The NOT gate is a forward arrow with a small circle at the output. The circle part of the symbol is what says that the output is negating the input.
 
-![NOT gate symbol](/images/logic-lab/logic-gates/not-gate.png)
+![NOT gate symbol](/internet/images/logic-lab/logic-gates/not-gate.png)
 
 ### OR gate
 
 Th OR gate has a curved input side and a sharp pointed output.
 
-![OR gate symbol](/images/logic-lab/logic-gates/or-gate.png)
+![OR gate symbol](/internet/images/logic-lab/logic-gates/or-gate.png)
 
 ### AND gate
 
 The AND gate has a flat input side and round output side.
 
-![AND gate symbol](/images/logic-lab/logic-gates/and-gate.png)
+![AND gate symbol](/internet/images/logic-lab/logic-gates/and-gate.png)
 
 ### Exclusive OR (XOR) gate
 
 The exclusive or gate symbol is just like the OR gate but it has an additonal curved line crossing the inputs.
 
-![XOR gate symbol](/images/logic-lab/logic-gates/xor-gate.png)
+![XOR gate symbol](/internet/images/logic-lab/logic-gates/xor-gate.png)
 
 ## Combined logic
 
@@ -70,7 +70,7 @@ let Q = (!A && B) || (A && !B)
 
 Coverting the equation to logic gates makes the following diagram. Notice how each gate "connects" the variables together just like the logic blocks in the code above.
 
-![Combinatorial XOR first version](/images/logic-lab/logic-gates/combinatorial1-xor.png)
+![Combinatorial XOR first version](/internet/images/logic-lab/logic-gates/combinatorial1-xor.png)
 
 However, if we take the other two unused conditions from the truth table that make the XOR operation ``false``, can make the negative equation for XOR, called a NXOR:
 
@@ -82,6 +82,6 @@ To get back to ``A ⊕ B`` we have to negate this negative equation. Then, with 
 
 When this equation is converted to logic gates, there's one fewer gate than in the first diagram.
 
-![Combinatorial XOR second version](/images/logic-lab/logic-gates/combinatorial2-xor.png)
+![Combinatorial XOR second version](/internet/images/logic-lab/logic-gates/combinatorial2-xor.png)
 
 This diagram has less complexity than the first one. Reduction in the number of gates to accomplish the same logical result is one of the primary goals for digital logic design. For electronic devices, this allows more gates to use the limited amount of space on an integrated circuit.

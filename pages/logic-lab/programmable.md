@@ -10,15 +10,15 @@ We can use the @boardname@ to create our own PLD. The digital pins are the input
 
 The physical idea of using your board as a PLD looks like this:
 
-![Board with to logic inputs and one output](/images/logic-lab/pld/cpx-pld.png)
+![Board with to logic inputs and one output](/internet/images/logic-lab/pld/cpx-pld.png)
 
 The logic inputs for `A` and `B` are connected to digital input pins. The resulting output `Q` is connected to a digital output pin. We can make a general representation of your board as a PLD by selecting some digital pins to use as inputs and outputs for our programmable logic.
 
-![Combinatorial XOR first version](/images/logic-lab/pld/generic-pld.png)
+![Combinatorial XOR first version](/internet/images/logic-lab/pld/generic-pld.png)
 
 By "connecting" the pins together with code, we can program virtual logic gates and make the board act like a PLD. With multiple pins and some more code, we can even create a combined logic circuit.
 
-![Combinatorial XOR first version](/images/logic-lab/pld/not-and-or.png)
+![Combinatorial XOR first version](/internet/images/logic-lab/pld/not-and-or.png)
 
 ## Logic observer
 
@@ -39,11 +39,11 @@ forever(function () {
 
 The **NOT** gate takes the logic value of the input and inverts it at the output. This is a single input gate using just the **A4** pin for input.
 
-![NOT gate with pin assignments](/images/logic-lab/pld/not-gate-pins.png)
+![NOT gate with pin assignments](/internet/images/logic-lab/pld/not-gate-pins.png)
 
 The **NOT** gate is wired using alligator test clips as shown in the following diagram. The output pin **A1** is connected to the observer at pin **A6**.
 
-![NOT gate wiring diagram](/images/logic-lab/pld/not-gate-pld.png)
+![NOT gate wiring diagram](/internet/images/logic-lab/pld/not-gate-pld.png)
 
 The script to program the **NOT** gate is simply a logical inverse of ``||pins:digital read pin||`` inside a ``||pins:digital write pin||``.
 
@@ -55,11 +55,11 @@ pins.A1.digitalWrite((!pins.A4.digitalRead()))
 
 The **OR** gate takes two inputs and makes the output ``true`` if any input is ``true``. The **A4** and **A7** pins are the inputs.
 
-![OR gate with pin assignments](/images/logic-lab/pld/or-gate-pins.png)
+![OR gate with pin assignments](/internet/images/logic-lab/pld/or-gate-pins.png)
 
 The **OR** gate is wired using alligator test clips as shown in this diagram. The output pin **A2** is connected to the observer at pin **A6**.
 
-![OR gate wiring diagram](/images/logic-lab/pld/or-gate-pld.png)
+![OR gate wiring diagram](/internet/images/logic-lab/pld/or-gate-pld.png)
 
 The script to program an **OR** gate is two ``||pins:digital read pin||`` blocks, connected with an ``||logic:or||``, inside a ``||pins:digital write pin||``.
 
@@ -71,11 +71,11 @@ pins.A2.digitalWrite(pins.A4.digitalRead() || pins.A7.digitalRead())
 
 The **AND** gate takes two inputs and makes the output ``true`` if both inputs are ``true``. The **A4** and **A7** pins are the inputs.
 
-![AND gate with pin assignments](/images/logic-lab/pld/and-gate-pins.png)
+![AND gate with pin assignments](/internet/images/logic-lab/pld/and-gate-pins.png)
 
 The **AND** gate is wired using alligator test clips as shown in the next diagram. The output pin **A3** is connected to the observer at pin **A6**.
 
-![AND gate wiring diagram](/images/logic-lab/pld/and-gate-pld.png)
+![AND gate wiring diagram](/internet/images/logic-lab/pld/and-gate-pld.png)
 
 The script for an **AND** gate is two ``||pins:digital read pin||`` blocks, connected with an ``||logic:and||``, inside a ``||pins:digital write pin||``.
 
@@ -140,11 +140,11 @@ let Q = (!A && B) || (A && !B)
 
 We'll make an **XOR** gate by programming a combined logic device for it. This time let's say that the whole @boardname@ is a programmed **XOR** gate. 
 
-![XOR symbol with board image](/images/logic-lab/pld/xor-cpx.png)
+![XOR symbol with board image](/internet/images/logic-lab/pld/xor-cpx.png)
 
 Let's use the same wiring diagram as we did for the **OR** gate using **A4** and **A7** as input pins with **A2** connected to the observer pin **A6**.
 
-![XOR gate wiring diagram](/images/logic-lab/pld/xor-gate-pld.png)
+![XOR gate wiring diagram](/internet/images/logic-lab/pld/xor-gate-pld.png)
 
 Our logic gate script is a bit different this time. To simplify forming the expression for **XOR**, we'll assign variables to the input and output values. 
 

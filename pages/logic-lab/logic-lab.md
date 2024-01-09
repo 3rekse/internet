@@ -1,7 +1,7 @@
 ---
 layout: cover
 background: >-
-  /images/logic-lab/logic-lab-header.jpg
+  /internet/images/logic-lab/logic-lab-header.jpg
 hideInToc: true
 level: 1
 title: Welcome!
