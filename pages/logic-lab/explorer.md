@@ -74,7 +74,7 @@ level: 2
 
 The identity test is simple. It just makes the output have the same logical value as the input. Set the ``||variables:Q||`` output variable to the ``||variables:A||`` variable.
 
-```block
+```
 let A = false
 let Q = A
 ```
@@ -98,7 +98,7 @@ Negation, or inversion, makes the output have the opposite value of the input. S
 
 Replace the ``||logic:false||`` in the ``||variables:Q||`` equation with a ``||logic:not||`` operator. Pull the ``||variables:A||`` variable down from the ``||loops:for element||`` loop and drop it inside the ``||logic:not||`` operator.
 
-```block
+```
 let A = false
 let Q = !A
 ```
@@ -149,7 +149,7 @@ image: /internet/images/logic-lab/twoInOut.png
 
 ## Two input loop
 
-```blocks
+```
 let inputs = [false, true]
 let Q = false
 for (let A of inputs) {
@@ -174,7 +174,7 @@ level: 2
 
 Now, grab an ``||logic:or||`` operator and replace the ``||logic:not||`` in the ``||variables:Q||`` equation with it. Pull the ``||variables:A||`` variable down from the outside ``||loops:for element||`` loop and drop it in on the left side the ``||logic:or||`` operator. Drag down the ``||variables:B||`` variable down from the inside ``||loops:for element||`` loop and drop it in on the right side the ``||logic:or||`` operator.
 
-```block
+```
 let A = false
 let B = false
 let Q = A || B
@@ -206,7 +206,7 @@ level: 2
 
 Now, switch the ``||logic:or||`` operator type in the ``||variables:Q||`` equation to the ``||logic:and||`` operator type:
 
-```block
+```
 let A = false
 let B = false
 let Q = A && B
@@ -237,7 +237,7 @@ level: 2
 
 To test XOR, we'll use the XOR expression from [Boolean elements](/logic-lab/elements#xor). Drag and place the ``||logic:LOGIC||`` blocks to make the ``||variables:Q||`` equation to look like this:
 
-```block
+```
 let A = false
 let B = false
 let Q = (A || B) && !(A && B)

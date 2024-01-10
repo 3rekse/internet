@@ -2,10 +2,10 @@
   "name": "irm1005--itec1005--web-development--fall-2023",
   "private": true,
   "scripts": {
-    "build": "slidev build",
+    "build": "slidev build && sed -i s=/assets/index=/internet/assets/index=g dist/*.html && mv dist/internet/images dist",
     "dev": "slidev --open",
     "export": "slidev export",
-    "deploy": "gh-pages -d dist"
+    "deploy": "sed -i s=https://cdn.jsdelivr.net/gh/slidevjs/slidev/assets/favicon.png=/internet/images/solerosso.svg=g dist/*.html && gh-pages -d dist"
   },
   "dependencies": {
     "@slidev/cli": "^0.43.6",

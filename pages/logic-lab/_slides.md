@@ -14,10 +14,10 @@ src: ./elements.md
 src: ./explorer.md
 ---
 
-#---
-#src: ./logic-gates.md
-#---
+---
+src: ./logic-gates.md
+---
 
-#---
-#src: ./programmable.md
-#---
+---
+src: ./programmable.md
+---

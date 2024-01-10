@@ -68,19 +68,22 @@ As a way to reduce the conditions, or facts as we've called them, into a form th
 
 The result then, is a variable called ``Q`` that is true when you're happy and is a value of an operation of ``A`` with ``B``. This operation is OR which is represented by the ``+`` symbol.
 
-``Q`` = ``A + B``
+<span style="color: red;">``Q`` = ``A + B ``</span>
 
-The result of ``Q`` is ``true`` when either it's sunny or you've had a donut. If other things make you happy, like being on vacation, you could add that to the equation.
+The result of ``Q`` is ``true`` when either it's sunny or you've had a donut. 
+---
+title: Boolean algebra
+level: 2
+---
+## Boolean algebra
 
-* Variable ``C`` = ``"I'm on vacation"``
+If other things make you happy, like being on vacation, you could add that to the equation.
 
-``Q`` = ``A + B + C``
+* Variable ``C`` = ``"I'm on vacation"`` <span style="color: red;">``Q`` = ``A + B + C``</span>
 
 It could be that you're easy to please and you just have to feel well to be happy. So, you're happy when your NOT sick. We'll use the ``~`` to mean NOT in our equation.
 
-* Variable ``A`` = ``"I'm sick"``
-
-``Q`` = ``~A``
+* Variable ``A`` = ``"I'm sick"`` <span style="color: red;"> ``Q`` = ``~A``</span>
 
 In the situation where all conditions must be true for the result to be true, the conditions use the AND operation. For the sun to shine on you, the sky must be clear and it has to be daytime. We put these two facts together with the AND symbol ``·``.
 
@@ -88,9 +91,11 @@ In the situation where all conditions must be true for the result to be true, th
 * Variable ``B`` = ``"It's daytime"``
 * Result ``Q`` = ``"The sun is shining"``
 
-``Q`` = ``A · B``
-
-## Expressions
+<span style="color: red;">``Q`` = ``A · B``</span>
+---
+title: Expressions
+---
+#### Expressions
 
 Sometimes different operations on the same conditions can make equivalent results. If we take the opposite case of the last example where the sun is not shining, the variables for that are:
 
@@ -100,24 +105,26 @@ Sometimes different operations on the same conditions can make equivalent result
 * Result ``~Q`` = ``"The sun is NOT shining"``
 
 To make the opposite of ``"the sun is shining"`` we negate, use the NOT symbol, on both sides of the equation.
-
-``~Q`` = ``~(A · B)``
+<span style="color: red;">``~Q`` = ``~(A · B)``</span>
 
 Now, let's think of the sun NOT shining due to negative conditions. If the sky isn't clear OR it's not daytime, then the sun isn't shining. So, the NOT symbol is put in before the variables for each condition so that ``"the sun is NOT shining"`` has another equation like this:
-
-``~Q`` = ``~A + ~B``
+<span style="color: red;">``~Q`` = ``~A + ~B``</span>
 
 We see that the side with the ``A`` and ``B`` variables in both equations are equivalent to each other since they both equate to ``~Q``:
-
-``~(A · B)`` = ``~A + ~B``
+<span style="color: red;">``~(A · B)`` = ``~A + ~B``</span>
 
 The logic equation now doesn't include the result variable ``Q`` but instead there are two _expressions_ that are logically equivalent on each side.
 
-### ~ hint
+---
+title: De Morgan's Thereom
+level: 2
+---
+## De Morgan's Thereom
 
-#### De Morgan's Thereom
 
-That last equation, ``~(A · B)`` = ``~A + ~B``, demonstrates an inportant property in Boolean algebra. It's called De Morgan's Thereom which says that the inverse (NOT) of a conjunction (AND) is logically equivalent to the disjunction (OR) of two inverses (NOT). Also, the inverse (NOT) of a disjunction (OR) is logically equivalent to the conjunction (AND) of two inverses (NOT).
+That last equation, ``~(A · B)`` = ``~A + ~B``, demonstrates an inportant property in Boolean algebra. 
+
+It's called De Morgan's Thereom which says that the inverse (NOT) of a conjunction (AND) is logically equivalent to the disjunction (OR) of two inverses (NOT). Also, the inverse (NOT) of a disjunction (OR) is logically equivalent to the conjunction (AND) of two inverses (NOT).
 
 This easier understood by seeing the Boolean equations for both cases:
 
@@ -126,20 +133,17 @@ This easier understood by seeing the Boolean equations for both cases:
 >-- AND --
 
 ``~(A + B)`` = ``~A · ~B``
-
-### ~
-
+---
+layout: two-cols-header
+title: Truth tables
+level: 2
+---
+::left::
 ## Truth tables
 
-A truth table is a way to see all possible condtions for the variables in a logical expression and to chart the results. Using the truth statement about when it's freezing outside and you have no coat, here's the truth table showing the possible conditions and their results:
+A truth table is a way to see all possible condtions for the variables in a logical expression and to chart the results. 
 
-It's freezing | I have no coat | I feel cold
--|-|-
-false | false | false
-false | true | false
-true | false | false
-true | true | true
-<br/>
+Using the truth statement about when it's freezing outside and you have no coat. here's the truth table showing the possible conditions and their results:
 
 Because you feel cold only when both conditions are true, the statement becomes an AND expression in Boolean algebra.
 
@@ -148,17 +152,30 @@ Because you feel cold only when both conditions are true, the statement becomes 
 
 ``A · B`` = ``Q``
 
-A truth table for the variables in the expression have the same values as the table for the truth statement (``true`` and ``false`` are abbreviated to just ``T`` and ``F``).
+::right::
+A truth table for the variables in the expression have the same values as the table for the truth statement (``true`` and ``false`` are abbreviated to just ``1`` and ``0``).
 
-A | B | Q
--|-|-
-F | F | F
-F | T | F
-T | F | F
-T | F | T
-<br/>
+Here's the truth table width the possible conditions and their results:
 
-What would happen if we changed the condition of ``"I have no coat"`` to ``"I have a coat"``? How does that affect truth table about how cold you feel?
+It's freezing|I have no coat|I feel cold|A|B|Q
+-|-|-|-|-|-
+ false | false | false |0|0|0
+ false | true | false |0|1|0
+ true | false | true |1|0|0
+ true | true | false |1|1|1
+
+---
+layout: two-cols-header
+title: Truth tables 2
+level: 2
+---
+## Truth tables 2
+
+::left::
+
+What would happen if we changed the condition of ``"I have no coat"`` to ``"I have a coat"``? 
+
+How does that affect truth table about how cold you feel?
 
 It's freezing | I have a coat | I feel cold
 -|-|-
@@ -168,12 +185,16 @@ true | false | true
 true | true | false
 <br/>
 
+::right::
+To write a Boolean equation for when you feel cold, we find the condtions in the table where ``Q`` is ``true``. Here we see that you will feel cold only in one row, when condition ``A`` is ``true`` and condtion ``B`` is ``false``. The Boolean equation for these conditions is this:
+
+``A · ~B`` = ``Q``
 A | B | Q
 -|-|-
-F | F | F
-F | T | F
-T | F | T
-T | F | F
+F 0 | F 0 | F 0
+F 0 | T 1| F 0
+T 1 | F 0 | T 1
+T 1 | T 1 | F 0
 <br/>
 
 To write a Boolean equation for when you feel cold, we find the condtions in the table where ``Q`` is ``true``. Here we see that you will feel cold only in one row, when condition ``A`` is ``true`` and condtion ``B`` is ``false``. The Boolean equation for these conditions is this:

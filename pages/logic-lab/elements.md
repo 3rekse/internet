@@ -210,7 +210,7 @@ T | T | T
 title: AND 
 level: 2
 ---
-### AND (Conjunction)
+## AND (Conjunction)
 
 The AND operator requires that all conditions are ``true`` for the result to be ``true``.
 
@@ -225,7 +225,7 @@ let Q = A && B
 title: AND Example 
 level: 2
 ---
-#### Example - Blink on double press only
+## Example - Blink on double press only
 
 ```
 let A = false
@@ -250,7 +250,7 @@ forever(function () {
 title: AND Truth table
 level: 2
 ---
-#### Truth table
+## Truth table
 
 A | B | A · B
 -|-|-
@@ -263,7 +263,7 @@ T | T | T
 title: XOR 
 level: 2
 ---
-### XOR (Exclusive OR) #xor
+# XOR (Exclusive OR) 
 
 Exclusive OR (XOR) means that only one or the other condition is true. Both conditions can't be true at the same time. XOR is common in Boolean algebra but it has no operator in JavaScript. Its operation can be made from combining a few simple expressions.
 
@@ -278,7 +278,7 @@ let Q = (A || B) && !(A && B)
 title: XOR Example
 level: 2
 ---
-#### Example - Blink on one press or the other
+## Example - Blink on one press or the other
 
 ```
 let A = false
@@ -298,12 +298,12 @@ forever(function () {
 title: XOR Truth table
 level: 2
 ---
-#### XOR Truth table
+## XOR Truth table
 
 
-| A⊕B | A | B |
+| A | B | A⊕B |
 |---|---|-----|
 | F | F |  F  |
+| F | T |  T  |
 | T | F |  T  |
 | T | T |  F  |
-| F | T |  T  |
