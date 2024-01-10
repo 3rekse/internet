@@ -19,8 +19,9 @@ level: 2
 
 These topic sections teach you about applying logic to conditions and using Boolean algebra to express them. Also, you will see how logical operators work and how they combine to form more complex logic structures.
 
-* [Logic and Expressions](/logic-lab/expressions)
-* [Boolean Elements](/logic-lab/elements)
-* [Logic Explorer](/logic-lab/explorer)
-* [Logic Gates](/logic-lab/logic-gates)
-* [Programmable Logic](/logic-lab/programmable)
+* [Logic and Expressions](/internet/logic-lab/expressions)
+* [Boolean Elements](/internet/logic-lab/elements)
+* [Logic Explorer](/internet/logic-lab/explorer)
+* [Logic Gates](/internet/logic-lab/logic-gates)
+* [Programmable Logic](/internet/logic-lab/programmable)
+* [Circuitjs](http://tinyurl.com/yk7v5xzw)

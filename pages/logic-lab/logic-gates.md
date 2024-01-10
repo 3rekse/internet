@@ -15,7 +15,7 @@ level: 2
 ---
 ## Gate symbols
 
-Each of the basic operators we learned about in the [expressions](/learnsystem/logic-lab/expressions) section have a gate symbol. The symbol takes the place of the operator and the variables are the inputs to the gate. The resulting value from the expression equation is the output of the gate. The output of a gate can be a final result or it can be connected as an input to yet another gate.
+Each of the basic operators we learned about in the [expressions](/internet/logic-lab/expressions) section have a gate symbol. The symbol takes the place of the operator and the variables are the inputs to the gate. The resulting value from the expression equation is the output of the gate. The output of a gate can be a final result or it can be connected as an input to yet another gate.
 
 Logic gates are symbols that can directly replace an expression in Boolean arithmetic. Each one has a different shape to show its particular function. The inputs (Boolean variables) enter at the left of the symbol and the output leaves from the right. When combined together, several gates can make a complex logical evaluation system that has many inputs and outputs. Digital computers are designed by connecting thousands, or millions, of these gates to together.
 
@@ -67,7 +67,7 @@ level: 2
 
 When you connect multiple gates together you have a combined logic system or _combinatorial logic_. To design a combined logic system we can use a truth tables to match logical outputs for out various input conditions. Boolean expressions are written from the conditions in the table. Then, we can directly convert the expression into a diagram of logic gates.
 
-You might remember that back in [Boolean elements](/learnsystem/logic-lab/elements#xor) we saw that there was no operator to use in code for XOR. It was was made up using a combination of AND, OR, and NOT operators:
+You might remember that back in [Boolean elements](/internet/logic-lab/elements#xor) we saw that there was no operator to use in code for XOR. It was was made up using a combination of AND, OR, and NOT operators:
 
 ---
 title: Combined logic (cont)
@@ -141,7 +141,7 @@ However, if we take the other two unused conditions from the truth table that ma
 
 ``~(A ⊕ B)`` = ``(~A · ~B) + (A · B)``
 
-To get back to ``A ⊕ B`` we have to negate this negative equation. Then, with the help of [De Morgan's Thereom](/learnsystem/logic-lab/expressions#de-morgan-s-thereom), we get a different equation for XOR but it's still logically equivalent to the original one.
+To get back to ``A ⊕ B`` we have to negate this negative equation. Then, with the help of [De Morgan's Thereom](/internet/logic-lab/expressions#de-morgan-s-thereom), we get a different equation for XOR but it's still logically equivalent to the original one.
 
 ``A ⊕ B`` = ``(A + B) · ~(A · B)``
 

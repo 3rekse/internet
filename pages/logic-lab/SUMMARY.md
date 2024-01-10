@@ -1,8 +1,8 @@
 # SUMMARY
 
-* [Logic Lab](/learnsystem/logic-lab)
-    * [Logic and Expressions](/learnsystem/logic-lab/expressions)
-    * [Boolean Elements](/learnsystem/logic-lab/elements)
-    * [Logic Explorer](/learnsystem/logic-lab/explorer)
-    * [Logic Gates](/learnsystem/logic-lab/logic-gates)
-    * [Programmable Logic](/learnsystem/logic-lab/programmable)
+* [Logic Lab](/internet/logic-lab)
+    * [Logic and Expressions](/internet/logic-lab/expressions)
+    * [Boolean Elements](/internet/logic-lab/elements)
+    * [Logic Explorer](/internet/logic-lab/explorer)
+    * [Logic Gates](/internet/logic-lab/logic-gates)
+    * [Programmable Logic](/internet/logic-lab/programmable)
