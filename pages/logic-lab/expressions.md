@@ -93,8 +93,11 @@ In the situation where all conditions must be true for the result to be true, th
 
 <span style="color: red;">``Q`` = ``A · B``</span>
 ---
+layout: two-cols-header
 title: Expressions
+level: 2
 ---
+::left::
 #### Expressions
 
 Sometimes different operations on the same conditions can make equivalent results. If we take the opposite case of the last example where the sun is not shining, the variables for that are:
@@ -106,6 +109,8 @@ Sometimes different operations on the same conditions can make equivalent result
 
 To make the opposite of ``"the sun is shining"`` we negate, use the NOT symbol, on both sides of the equation.
 <span style="color: red;">``~Q`` = ``~(A · B)``</span>
+
+::right::
 
 Now, let's think of the sun NOT shining due to negative conditions. If the sky isn't clear OR it's not daytime, then the sun isn't shining. So, the NOT symbol is put in before the variables for each condition so that ``"the sun is NOT shining"`` has another equation like this:
 <span style="color: red;">``~Q`` = ``~A + ~B``</span>

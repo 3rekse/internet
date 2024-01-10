@@ -26,6 +26,8 @@ level: 2
 # What we cover
 Everything you need to know to get started with Web Development
 
+* Logic Lab  
+  * 
 * Core HTML Technologies
   * HTML5
   * CSS3
