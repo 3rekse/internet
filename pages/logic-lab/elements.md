@@ -71,7 +71,7 @@ layout: two-cols-header
 title: Identity
 level: 2
 ---
-## Identity
+## [Identity](http://tinyurl.com/ysgf43zt)
 
 Identity means that a result value is the same as the condition itself.
 
@@ -122,6 +122,13 @@ The NOT operator is called negation or the inverse. It takes a single logical va
 let A = false
 let Q = !(A)
 ```
+## Truth table
+
+A | ~A
+-|-
+F | T
+T | F
+
 ---
 title: NOT Example 
 level: 2
@@ -141,16 +148,6 @@ forever(function () {
 })
 ```
 [Negation](https://makecode.com/_PsFaCH9J0Wvw)
----
-title: Not True table
-level: 2
----
-#### Truth table
-
-A | ~A
--|-
-F | T
-T | F
 
 ---
 title: OR
@@ -167,11 +164,19 @@ let A = false
 let B = false
 let Q = A || B
 ```
+
+A | B | A + B
+-|-|-
+F | F | F
+T | F | T
+F | T | T
+T | T | T
+
 ---
 title: Or example
 level: 2
 ---
-#### Example - Blink on any press
+## Example - Blink on any press
 
 ```
 let A = false
@@ -193,18 +198,6 @@ forever(function () {
 
 ```
 [Or da completare](https://makecode.com/_D1z8v47LyTm1)
----
-title: OR Truth table
-level: 2
----
-## OR Truth table
-
-A | B | A + B
--|-|-
-F | F | F
-T | F | T
-F | T | T
-T | T | T
 
 ---
 title: AND 
@@ -221,6 +214,14 @@ let A = false
 let B = false
 let Q = A && B
 ```
+
+A | B | A · B
+-|-|-
+F | F | F
+T | F | F
+F | T | F
+T | T | T
+
 ---
 title: AND Example 
 level: 2
@@ -246,24 +247,14 @@ forever(function () {
 })
 
 ```
----
-title: AND Truth table
-level: 2
----
-## Truth table
-
-A | B | A · B
--|-|-
-F | F | F
-T | F | F
-F | T | F
-T | T | T
 
 ---
-title: XOR 
+layout: two-cols-header
+title: XOR (Exclusive OR)
 level: 2
 ---
 # XOR (Exclusive OR) 
+::left::
 
 Exclusive OR (XOR) means that only one or the other condition is true. Both conditions can't be true at the same time. XOR is common in Boolean algebra but it has no operator in JavaScript. Its operation can be made from combining a few simple expressions.
 
@@ -274,6 +265,20 @@ let A = false
 let B = false
 let Q = (A || B) && !(A && B)
 ```
+
+![menu](/internet/images/logic-lab/logic-gates/menu.png)
+
+::right::
+
+| A | B | A⊕B |
+|---|---|-----|
+| F | F |  F  |
+| F | T |  T  |
+| T | F |  T  |
+| T | T |  F  |
+
+
+
 ---
 title: XOR Example
 level: 2
@@ -294,16 +299,3 @@ forever(function () {
     pause(500)
 })
 ```
----
-title: XOR Truth table
-level: 2
----
-## XOR Truth table
-
-
-| A | B | A⊕B |
-|---|---|-----|
-| F | F |  F  |
-| F | T |  T  |
-| T | F |  T  |
-| T | T |  F  |

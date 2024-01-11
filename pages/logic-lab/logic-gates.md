@@ -3,7 +3,7 @@ layout: intro
 title: Logic Gates
 level: 1
 ---
-# Logic Gates
+## [Logic Gates](http://tinyurl.com/yw3qa4rb)
 
 ![OR gate symbol](/internet/images/logic-lab/logic-gates/full-adder.png)
 
@@ -150,7 +150,7 @@ When this equation is converted to logic gates, there's one fewer gate than in t
 title: Combined logic
 level: 2
 ---
-## Combined logic
+## [Combined logic](http://tinyurl.com/ytfazyv9)
 
 
 
