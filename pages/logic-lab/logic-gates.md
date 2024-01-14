@@ -167,4 +167,5 @@ This diagram has less complexity than the first one. Reduction in the number of 
 
 ## END
 
-[Somma bitEsadecimale](http://tinyurl.com/2x65qywa)
+* [Somma bit in Esadecimale](http://tinyurl.com/2x65qywa)
+* [Contatore Esadecimale & Binario](http://tinyurl.com/yroohrrv)

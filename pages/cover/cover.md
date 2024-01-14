@@ -5,9 +5,10 @@ background: >-
 hideInToc: true
 level: 1
 title: Welcome!
+
 ---
 
-# BENVENUTI allo HON! 
+# HON?
 
 ## HyperText Omar Networking
 
@@ -19,28 +20,40 @@ Gli ipertesti e il networking
 </div>
 
 ---
-title: Welcome
+layout: two-cols-header
 level: 2
+title: Welcome
+
 ---
 
-# What we cover
-Everything you need to know to get started with Web Development
+## What we cover
 
-* Logic Lab  
-  * 
+Everything you need to know to get started with Web Development
+::left::
+
+* Logic Lab
+  * [Logic and Expressions](/internet/logic-lab/expressions)
+  * [Boolean Elements](/internet/logic-lab/elements)
+  * [Logic Explorer](/internet/logic-lab/explorer)
+  * [Logic Gates](/internet/logic-lab/logic-gates)
+  * [Programmable Logic](/internet/logic-lab/programmable)
+  * [Circuitjs](http://tinyurl.com/yk7v5xzw)
+
+* Modern front end tooling
+  * Git
+  * GitHub
+  * VSCode
+
+::right::
+
+HyperText
+
 * Core HTML Technologies
   * HTML5
   * CSS3
   * JavaScript
   * Accessibility (#a11y) <sub>A11Y is a numeronym. It refers to how accessible software is to everyone, including those with disabilities.</sub>
   * APIs
-
-* Modern front end tooling
-  * Git
-  * GitHub
-  * VSCode
-  * Deployments
-
 
 <!-- 
 
@@ -58,15 +71,16 @@ Slide notes:
 
 -->
 
-
 ---
-title: Key
 level: 2
+title: Key
 layout: image-right
 image: /internet/images/slides/intro/the-course/developer.jpg
+
 ---
 
-# The Key
+## The Key
+
 Learning how to learn new things
 
 * It's okay if nothing on the previous slide made any sense to you

@@ -86,6 +86,7 @@ Identity means that a result value is the same as the condition itself.
 
 ``Q = A``
 
+[let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let?retiredLocale=it)
 ::left::
 
 ```js
@@ -93,7 +94,7 @@ let A = false
 let Q = A
 ```
 
-## Truth table
+### Truth table
 
 A | Q
 -|-
@@ -102,7 +103,7 @@ T | T
 
 ::right::
 
-## Example - Blink  on press
+### Example - Blink  on press
 
 ```js
 let A = false
