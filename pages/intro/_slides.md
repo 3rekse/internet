@@ -1,6 +1,6 @@
-#---
-#src: about-me.md
-#---
+---
+src: citdigit.md
+---
 
 ---
 src: course.md

@@ -1,9 +1,12 @@
 ---
 src: ./cover/cover.md
 ---
-
 ---
 src: ./toc/toc.md
+---
+
+---
+src: ./intro/citdigit.md
 ---
 
 ---
