@@ -156,6 +156,7 @@ amici), chat, post, game interattivo o da altri ambienti.
 layout: two-cols-header
 title: Cyberbullismo 2
 level: 2
+
 ---
 ::left::
 
@@ -169,6 +170,7 @@ online della vittima
 programmi e contenuti appartenenti alla persona intestataria dello stesso per compiere azioni a suo nome.
 
 ::right::
+
 * HAPPY SLAPPING (schiaffeggiamento divertente): riproduzione di una registrazione di un’aggressione fisica nella vita
 reale a danno di una vittima e relativa pubblicazione online a cui aderiscono altri utenti che pur non avendo partecipato
 direttamente all’accaduto, esprimono commenti, insulti e altre affermazioni diffamanti e ingiuriose. I video vengono votati e

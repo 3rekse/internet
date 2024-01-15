@@ -40,8 +40,7 @@ Everything you need to know to get started with Web Development
   * [Circuitjs](http://tinyurl.com/yk7v5xzw)
 
 * Modern front end tooling
-  * Git
-  * GitHub
+  * [Git &  GitHub] (https://www.robinwieruch.de/git-essential-commands/)
   * VSCode
 
 ::right::
