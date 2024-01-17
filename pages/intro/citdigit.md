@@ -1,7 +1,7 @@
 ---
 layout: intro
 level: 1
-title: About me
+title: BULLISMO 2.0
 
 ---
 
@@ -55,8 +55,24 @@ image: /internet/images/intro/citdigit/nadia.png
 * La ragazza non riesce a contrastare la violenza e la cattiveria a cui è sottoposta e si getta da una palazzina, morendo sul colpo
 
 ---
+title: giovanna
 level: 2
-title: brandy
+layout: image-right
+image: https://www.rainews.it/resizegd/768x-/dl/img/2024/01/14/1705265565232_risposta_alla_recensione.jpg
+
+---
+
+## 16 Gennaio 2024
+
+### Sant'Angelo Lodigiano Giovanna 59 Anni
+
+La sua risposta a una recensione di un cliente su Tripadvisor era diventata suo malgrado molto condivisa sui social media
+
+[La Procura della Repubblica di Lodi ha aperto un'inchiesta, senza per ora ipotesi di reato.](https://www.rainews.it/articoli/2024/01/trovata-morta-la-ristoratrice-che-rispose-a-una-recensione-su-gay-e-disabili-85669fe5-4060-4761-91e6-580c7654f2e0.html)
+
+---
+level: 2
+title: Il bullismo
 
 ---
 

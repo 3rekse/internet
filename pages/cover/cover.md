@@ -42,6 +42,7 @@ Everything you need to know to get started with Web Development
 * Modern front end tooling
   * [Git &  GitHub] (https://www.robinwieruch.de/git-essential-commands/)
   * VSCode
+  
 
 ::right::
 
@@ -53,6 +54,7 @@ HyperText
   * JavaScript
   * Accessibility (#a11y) <sub>A11Y is a numeronym. It refers to how accessible software is to everyone, including those with disabilities.</sub>
   * APIs
+  * React (https://react.dev/learn)
 
 <!-- 
 
