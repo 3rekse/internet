@@ -52,7 +52,7 @@ image: /internet/images/intro/citdigit/nadia.png
 
 * Si iscrive al portale ASK.FM per cercare conforto alla sua solitudine
 * Per tutta risposta riceve insulti, scherno e incitamento al suicidio
-* La ragazza non riesce a contrastare la violenza e la cattiveria a cui è sottoposta e si getta da una palazzina, morendo sul colpo
+* La ragazza non riesce a contrastare la violenza e la /internet/images/intro/citdigit/carolina.pngcattiveria a cui è sottoposta e si getta da una palazzina, morendo sul colpo
 
 ---
 title: giovanna
@@ -107,7 +107,7 @@ layout: two-cols-header
 
 • Non hanno un rapporto con la vittima
 
-• Per calmare la coscienza, la vittima è spesso considerata meritevole della propria sorte
+• Per calmare la coshttps://youtu.be/nLFJV--1V24cienza, la vittima è spesso considerata meritevole della propria sorte
 
 ::left::
 
@@ -181,7 +181,6 @@ contendenti [...] non necessariamente in contatto nella vita reale, per una dura
 * HARASSMENT (Molestia, vessazione): invio ripetuto di messaggi insultanti e volgari attraverso l’uso del computer e/o
 videotelefonino. Oltre a e-mail, sms, mms offensivi, pubblicazioni moleste su blog, forum e spyware per controllare i movimenti
 online della vittima
-
 * IMPERSONATION (sostituzione di persona) capacità di violare un account e accedere in modo non autorizzato a
 programmi e contenuti appartenenti alla persona intestataria dello stesso per compiere azioni a suo nome.
 
@@ -199,10 +198,20 @@ amicizia in cui si è instaurato un rapporto di fiducia
 
 ---
 level: 2
-title: Work 2
+title: Omarillo Film
+layout: image-right
+image: /internet/images/intro/citdigit/7Feb2024.png
 
 ---
+## 7 Febbraio 2024
+### Giornata Nazionale contro il Bullismo e il Cyberbullismo
 
 Quando le conseguenze delle proprie azioni aggressive
-sono lontane e non immediatamente visibili , è più facile
+sono lontane e non immediatamente visibili, è più facile
 allentare o disattivare i **controlli interni e i sensi di colpa**.
+
+La **Cooperativa Sociale Mondo REC di Rimini** è orgogliosa di presentare ai Nostri studenti il lungometraggio:
+
+[**"Tra le stelle e il mare - Ritorno a Pietrarubbia"**](https://youtu.be/nLFJV--1V24)
+
+Gli studenti possono condividere un commento, una sensazione, un'opinione relativa al film e all'argomento trattato  alla pagina Instagram di Mondo REC (https://www.instagram.com/mondorec.ragazziecinema/)
