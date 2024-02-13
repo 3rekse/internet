@@ -260,7 +260,7 @@ title: Il riscatto
 
 ---
 
-## La rischiesta un riscatto
+## La rischiesta di un riscatto
 
 I gruppi ransomware richiedono un pagamento, di solito in criptovaluta come il Bitcoin, per fornire la chiave di decrittazione o per sbloccare il sistema. Il riscatto richiesto può variare da poche centinaia a milioni di dollari, a seconda del gruppo e della gravità dell'attacco.
 
@@ -353,6 +353,7 @@ Se segui queste pratiche di sicurezza di base, puoi ridurre il rischio di vulner
 
 ![maurizio](http://elettronica.fauser.edu/maurifcbn.jpg)
 
+[Gli attacchi](https://ransomfeed.it/)
 ---
 level: 2
 title: firewall
