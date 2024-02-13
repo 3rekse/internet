@@ -12,7 +12,7 @@ title: Welcome!
 
 ## HyperText Omar Networking
 
-Gli ipertesti e il networking  
+Gli ipertesti il networking  e Internet 
 
 <!-- Add date to bottom of the page -->
 <div class="absolute bottom-0 ">
@@ -40,7 +40,7 @@ Everything you need to know to get started with Web Development
   * [Circuitjs](http://tinyurl.com/yk7v5xzw)
 
 * Modern front end tooling
-  * [Git &  GitHub] (https://www.robinwieruch.de/git-essential-commands/)
+  * [Git &  GitHub](https://www.robinwieruch.de/git-essential-commands/)
   * VSCode
   
 
@@ -56,19 +56,21 @@ HyperText
   * APIs
   * React (https://react.dev/learn)
 
+I pericoli di internet - Il Cyberbullismo
+
 <!-- 
 
 Slide notes: 
 
-* Okay, so here is the list of topics and some of tooling that we are going to cover in the next 13 weeks
-* Today we're talking about How the web works
-* And in future lessons were going to cover 
-  * HTML5 - which is the building blocks of our web pages - how to mark up documents in a compliant way and use all of the sementic tags properly 
-  * CSS3 - what we use to style our pages - to be make them really magical with modern CSS
-  * and JavaScript - what we use to add important user interactions to our pages
-  * We also talk about accessibility (or referred to as "a11y")
-  * We'll dive into some modern tech stacks and use libraries like TailwindCSS, VueJS and Nuxt
-  * And then we've got a whole list of modern tools that you'll get to use and experiment with. These are the exact same tools you're going to use when you land in industry, so it's really important you get familiar with them now 
+* Ok, ecco l'elenco degli argomenti e di alcuni strumenti che tratteremo nelle prossime settimane
+*Oggi parliamo di Come funziona il web
+* E in futuro le lezioni copriranno
+   * HTML5 - che costituisce gli elementi costitutivi delle nostre pagine web - come contrassegnare i documenti in modo conforme e utilizzare correttamente tutti i tag semantici
+   * CSS3 - ciò che usiamo per dare stile alle nostre pagine - per renderle davvero magiche con i moderni CSS
+   * e JavaScript: ciò che utilizziamo per aggiungere importanti interazioni dell'utente alle nostre pagine
+   *Si parla anche di accessibilità (o denominata "a11y")
+   * Ci immergeremo in alcuni stack tecnologici moderni e utilizzeremo librerie come TailwindCSS, VueJS e Nuxt
+   * E poi abbiamo un intero elenco di strumenti moderni che potrai utilizzare e sperimentare. Questi sono esattamente gli stessi strumenti che utilizzerai quando entrerai nell'industria, quindi è davvero importante che tu acquisisca familiarità con loro ora
 
 -->
 
@@ -80,13 +82,15 @@ image: /internet/images/slides/intro/the-course/developer.jpg
 
 ---
 
-## The Key
-
-Learning how to learn new things
+## How to learn new things
 
 * It's okay if nothing on the previous slide made any sense to you
 * We're going to get through this all together
 * The most important thing is that you learn how to learn new things
+* L'unica cosa costante è il cambiamento in questo settore
+* I framework e gli strumenti che erano popolari 5 anni fa sono scomparsi da tempo
+* E nuove strutture e strumenti stanno spuntando come le erbacce
+* Devi sentirti a tuo agio con il cambiamento e imparare continuamente cose nuove in questo settore
 
 <!-- 
 
